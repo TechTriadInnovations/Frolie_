@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>fmeexgamename</key>
+		<string>Fighting games</string>
+		<key>fmeexprief</key>
+		<string> For example, &quot;Street Fighter II&quot; is a fighting game where players control characters for one-on-one or multiplayer battles, emphasizing combos, strategies, and reaction speed.</string>
+		<key>fmeexCovver</key>
+		<string>fmeexgmeCovver0</string>
+		<key>fmeexComment0</key>
+		<string>Street Fighter games are always so intense. The combos and special moves make for exciting matches.</string>
+		<key>fmeexComment1</key>
+		<string>Fighting games test your reflexes and strategic thinking. Love the competitive aspect.</string>
+		<key>fmeexComment2</key>
+		<string>The graphics in modern fighting games are amazing. It&apos;s like watching a martial arts movie come to life.</string>
+		<key>fmeexOutimg</key>
+		<string>fME_Fighting games</string>
+	</dict>
+	<dict>
+		<key>fmeexgamename</key>
+		<string>Platform action games</string>
+		<key>fmeexprief</key>
+		<string>For instance, &quot;Super Mario Bros.&quot; is a platform action game in which players control characters to perform actions such as jumping, running, and attacking on different platforms to complete level goals.</string>
+		<key>fmeexCovver</key>
+		<string>fmeexgmeCovver1</string>
+		<key>fmeexComment0</key>
+		<string>Super Mario Bros. is a classic that never gets old. The level design is genius.</string>
+		<key>fmeexComment1</key>
+		<string>Platform action games are great for quick bursts of fun. Easy to pick up and play.</string>
+		<key>fmeexComment2</key>
+		<string>The challenges in platformers keep you coming back for more. Always trying to beat your best time.</string>
+		<key>fmeexOutimg</key>
+		<string>fME_Platform action games</string>
+	</dict>
+	<dict>
+		<key>fmeexgamename</key>
+		<string>Action-adventure games</string>
+		<key>fmeexprief</key>
+		<string>As an example, &quot;Teenage Mutant Ninja Turtles&quot; is an action-adventure game that usually contains combat, exploration, and puzzle elements. Players control turtle characters to adventure in various scenes.</string>
+		<key>fmeexCovver</key>
+		<string>fmeexgmeCovver2</string>
+		<key>fmeexComment0</key>
+		<string>Teenage Mutant Ninja Turtles games are full of action and adventure. Love exploring the different levels.</string>
+		<key>fmeexComment1</key>
+		<string>Action-adventure games have a great story and gameplay balance. Keeps you engaged for hours.</string>
+		<key>fmeexComment2</key>
+		<string>The puzzles in action-adventure games add an extra layer of challenge. Fun to figure out.</string>
+		<key>fmeexOutimg</key>
+		<string>fME_Action-adventure</string>
+	</dict>
+	<dict>
+		<key>fmeexgamename</key>
+		<string>Shooting games</string>
+		<key>fmeexprief</key>
+		<string>&quot;For example, &quot;&quot;Space Invaders&quot;&quot; is an early vertical shooting game where players shoot constantly appearing enemies.
+&quot;&quot;Metal Slug&quot;&quot; is a horizontal shooting game where players control characters to use various weapons to fight enemies.
+&quot;&quot;Raiden&quot;&quot; is a vertical shooting game featuring gorgeous graphics and dense bullet curtains.&quot;</string>
+		<key>fmeexCovver</key>
+		<string>fmeexgmeCovver3</string>
+		<key>fmeexComment0</key>
+		<string>Space Invaders is a timeless shooting game. Simple yet addictive.</string>
+		<key>fmeexComment1</key>
+		<string>Metal Slug has amazing graphics and intense action. One of my favorites.</string>
+		<key>fmeexComment2</key>
+		<string>Raiden&apos;s bullet patterns are insane. Requires quick reflexes and strategy.</string>
+		<key>fmeexOutimg</key>
+		<string>fME_Shooting games</string>
+	</dict>
+	<dict>
+		<key>fmeexgamename</key>
+		<string>Puzzle games</string>
+		<key>fmeexprief</key>
+		<string>For instance, &quot;Pac-Man&quot; and &quot;Breakout&quot; are puzzle games. In &quot;Pac-Man&quot;, players need to avoid enemies and eat all the pellets in a maze, requiring certain strategies and reaction abilities. In &quot;Breakout&quot;, players control the paddle to bounce the ball to break bricks, testing their operation skills and strategies.</string>
+		<key>fmeexCovver</key>
+		<string>fmeexgmeCovver4</string>
+		<key>fmeexComment0</key>
+		<string>Pac-Man is a classic puzzle game that&apos;s still fun to play today. Simple yet challenging.</string>
+		<key>fmeexComment1</key>
+		<string>Breakout is a great way to pass the time. Love the satisfaction of breaking all the bricks.</string>
+		<key>fmeexComment2</key>
+		<string>Puzzle games like these make you think and strategize. Good for the brain.</string>
+		<key>fmeexOutimg</key>
+		<string>fME_Puzzle games</string>
+	</dict>
+	<dict>
+		<key>fmeexgamename</key>
+		<string>Racing games</string>
+		<key>fmeexprief</key>
+		<string>For instance, &quot;Speed Racer&quot; is a racing game where players control high-speed vehicles to race on various tracks, usually with challenging turns, different terrains and rival racers. The game offers a wide range of tracks with unique designs, from cityscapes to mountainous landscapes. Players can customize their vehicles to enhance performance and appearance. </string>
+		<key>fmeexCovver</key>
+		<string>fmeexgmeCovver5</string>
+		<key>fmeexComment0</key>
+		<string>Racing games like ‘Need for Speed’ are a rush. </string>
+		<key>fmeexComment1</key>
+		<string>Racing games offer a great way to unwind and have some fun. Competing against friends or AI opponents is always a blast. The variety of cars and tracks keeps it interesting.</string>
+		<key>fmeexComment2</key>
+		<string>Choosing the right line, managing your speed, and making split-second decisions make for an intense gaming experience.</string>
+		<key>fmeexOutimg</key>
+		<string>fME_Racing games</string>
+	</dict>
+	<dict>
+		<key>fmeexgamename</key>
+		<string>Beat &apos;em up games</string>
+		<key>fmeexprief</key>
+		<string> For example, &quot;Final Fight&quot; is a beat &apos;em up game in which players fight a large number of enemies in levels and defeat them through combos and special skills.</string>
+		<key>fmeexCovver</key>
+		<string>fmeexgmeCovver6</string>
+		<key>fmeexComment0</key>
+		<string>Final Fight is a classic beat &apos;em up. Love the action and the ability to use combos.</string>
+		<key>fmeexComment1</key>
+		<string>Beat &apos;em up games are great for stress relief. Just go in and beat up all the bad guys.</string>
+		<key>fmeexComment2</key>
+		<string>The variety of enemies and levels in beat &apos;em up games keeps it interesting.</string>
+		<key>fmeexOutimg</key>
+		<string>fME_Beat &apos;em up games</string>
+	</dict>
+</array>
+</plist>

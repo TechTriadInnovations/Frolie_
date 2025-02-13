@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Froliv ELUA</key>
+	<string>Froliv App End User License Agreement
+This End User License Agreement (&quot;EULA&quot;) is a legal agreement between you (either an individual or a single entity) and the publisher of Froliv App (&quot;Publisher&quot;) for the Froliv software application, including any software libraries, related documentation, and any updates or supplements to the software (collectively, the &quot;Software&quot;).
+1. GRANT OF LICENSE
+The Publisher hereby grants you a non-exclusive, non-transferable, limited license to use the Software solely for personal, non-commercial purposes in accordance with the terms and conditions of this EULA. You may install and use one copy of the Software on a single device owned or controlled by you.
+2. RESTRICTIONS
+You may not:
+Reverse engineer, decompile, disassemble, or otherwise attempt to discover the source code, algorithms, or underlying ideas of the Software.
+Modify, translate, or create derivative works based on the Software.
+Rent, lease, loan, sell, assign, distribute, or otherwise transfer rights to the Software.
+Remove any proprietary notices or labels on the Software.
+3. TERMINATION
+This EULA is effective until terminated. You may terminate it by uninstalling the Software and destroying all copies in your possession or control. The Publisher may terminate this EULA immediately if you violate any of its terms. Upon termination, you must uninstall the Software and destroy all copies.
+4. WARRANTY
+The Software is provided &quot;as is&quot; without warranty of any kind. The Publisher disclaims all warranties, either express or implied, including but not limited to implied warranties of merchantability and fitness for a particular purpose.
+5. LIMITATION OF LIABILITY
+In no event shall the Publisher be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) arising out of the use or inability to use the Software, even if the Publisher has been advised of the possibility of such damages.
+6. GOVERNING LAW
+This EULA shall be governed by and construed in accordance with the laws of the country where the Publisher is located, without regard to conflict of law principles.
+7. ENTIRE AGREEMENT
+This EULA constitutes the entire agreement between you and the Publisher concerning the Software and supersedes any prior agreements, representations, or understandings between them.
+ACCEPTANCE
+By installing and using the Software, you acknowledge that you have read this EULA and agree to be bound by its terms and conditions.</string>
+	<key>Froliv App - Privacy Policy</key>
+	<string>Froliv App Privacy Policy
+We, the Publisher of Froliv App, respect your privacy and are committed to protecting it through our compliance with this Privacy Policy. This Privacy Policy describes the types of information we may collect from you or that you may provide when you use Froliv App (the &quot;App&quot;) and our practices for collecting, using, maintaining, protecting, and disclosing that information.
+1. INFORMATION WE COLLECT
+We may collect personal information from you, such as your name, email address, and other information when you register with us, use our services, or respond to surveys, promotions, or other initiatives. We may also collect non-personal information, such as your device information, usage data, and location data.
+2. HOW WE USE YOUR INFORMATION
+We use your personal information to provide you with the services you request, to improve our App, to personalize your experience, and to communicate with you about our products and services. We may also use your information for research, analysis, and anonymous reporting.
+3. HOW WE SHARE YOUR INFORMATION
+We do not sell, rent, or lease your personal information to third parties. We may share your information with our service providers who perform services on our behalf, such as data storage and analysis. We may also disclose your information if required by law or in response to legal process.
+4. YOUR CHOICES
+You may opt-out of receiving promotional communications from us by following the instructions in those communications. You may also access and correct your personal information and delete your account by contacting us.
+5. SECURITY
+We have implemented reasonable administrative, technical, and physical measures to safeguard the information we collect. However, no method of transmission over the Internet or method of electronic storage is 100% secure, and we cannot guarantee its absolute security.
+6. CHANGES TO THIS PRIVACY POLICY
+We reserve the right to change this Privacy Policy at any time. If we make material changes to this Privacy Policy, we will notify you by posting the revised Privacy Policy on our website and/or within the App.
+7. CONTACT US
+If you have any questions or concerns about this Privacy Policy, please contact us at haolaiWen@gmail.com.</string>
+	<key>Froliv App Terms of Use</key>
+	<string>Welcome to Froliv App! These Terms of Use (&quot;Terms&quot;) govern your use of the Froliv software application, including any software libraries, related documentation, and any updates or supplements to the software (collectively, the &quot;App&quot;). By accessing or using the App, you agree to be bound by these Terms and to comply with all applicable laws and regulations. If you do not agree to these Terms, you may not access or use the App.
+1. USER ACCOUNTS
+You may be required to register with us to use certain features of the App. You agree to provide accurate, current, and complete information during the registration process and to update such information to keep it accurate, current, and complete. You are responsible for maintaining the confidentiality of your account password and for any activities that occur under your account.
+2. USER CONTENT
+You may post, upload, or submit content, including but not limited to game scores, strategies, and comments (&quot;User Content&quot;). You are solely responsible for your User Content and its accuracy. You may not post, upload, or submit any User Content that violates any law or regulation or that infringes upon the intellectual property rights of others.
+3. INTELLECTUAL PROPERTY
+The App and all content within the App, including but not limited to the software, graphics, text, images, and other materials, are owned by the Publisher or its licensors and are protected by copyright, trademark, and other intellectual property laws. You may not use such content except as permitted by these Terms.
+4. TERMINATION
+We may terminate your access to the App or your account at any time, with or without cause, and with or without notice. Upon termination, you must destroy all copies of the App in your possession or control.
+5. DISCLAIMER OF WARRANTIES
+The App is provided &quot;as is&quot; without warranty of any kind. The Publisher disclaims all warranties, either express or implied, including but not limited to implied warranties of merchantability and fitness for a particular purpose.
+6. LIMITATION OF LIABILITY
+In no event shall the Publisher be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) arising out of the use or inability to use the App, even if the Publisher has been advised of the possibility of such damages.
+7. GOVERNING LAW
+These Terms shall be governed by and construed in accordance with the laws of the country where the Publisher is located, without regard to conflict of law principles.
+8. ENTIRE AGREEMENT
+These Terms constitute the entire agreement between you and the Publisher concerning the App and supersede any prior agreements, representations, or understandings between them.
+ACCEPTANCE
+By accessing or using the App, you acknowledge that you have read these Terms and agree to be bound by them.</string>
+</dict>
+</plist>

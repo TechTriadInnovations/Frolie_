@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042E4DA12CF4115C0038FF8E /* FMEAppPriDesc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042E4DA02CF4115C0038FF8E /* FMEAppPriDesc.plist */; };
+		042E4DA32CF412480038FF8E /* FMEAppuserfing.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042E4DA22CF412480038FF8E /* FMEAppuserfing.plist */; };
+		042E4DA52CF41B000038FF8E /* FMEgaaamerinfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042E4DA42CF41AFF0038FF8E /* FMEgaaamerinfo.plist */; };
+		042E4DA72CF41EEF0038FF8E /* FMEMainMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E4DA62CF41EEF0038FF8E /* FMEMainMesmerizing.swift */; };
+		042E4DAA2CF422900038FF8E /* FMEDataversity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E4DA92CF422900038FF8E /* FMEDataversity.swift */; };
+		042E4DAE2CF428C30038FF8E /* FMEYIMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E4DAD2CF428C30038FF8E /* FMEYIMesmerizing.swift */; };
+		042E4DB12CF428E10038FF8E /* FMEDiscoverMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E4DB02CF428E10038FF8E /* FMEDiscoverMesmerizing.swift */; };
+		042E4DB42CF429160038FF8E /* FMECenterMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E4DB32CF429160038FF8E /* FMECenterMesmerizing.swift */; };
+		042E4DB62CF4592B0038FF8E /* FMEAiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E4DB52CF4592A0038FF8E /* FMEAiButton.swift */; };
+		042E4DB82CF460A70038FF8E /* FMEMyRoomMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E4DB72CF460A70038FF8E /* FMEMyRoomMesmerizing.swift */; };
+		042E4DBB2CF4637E0038FF8E /* FMEMyRoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E4DBA2CF4637E0038FF8E /* FMEMyRoomCell.swift */; };
+		042E4DBD2CF474320038FF8E /* FMEOtherRoomMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E4DBC2CF474320038FF8E /* FMEOtherRoomMesmerizing.swift */; };
+		04740E342CF81EE70020CFB0 /* FMEUasdrlistMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04740E332CF81EE70020CFB0 /* FMEUasdrlistMesmerizing.swift */; };
+		04740E372CF839460020CFB0 /* FMEUasdrlistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04740E362CF839460020CFB0 /* FMEUasdrlistCell.swift */; };
+		04740E392CF841740020CFB0 /* FMEUasdrSiteMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04740E382CF841740020CFB0 /* FMEUasdrSiteMesmerizing.swift */; };
+		04740E3D2CF849BD0020CFB0 /* FMEUaLogMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04740E3B2CF849BD0020CFB0 /* FMEUaLogMesmerizing.swift */; };
+		04740E3E2CF849BD0020CFB0 /* FMEUaLogMesmerizing.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04740E3C2CF849BD0020CFB0 /* FMEUaLogMesmerizing.xib */; };
+		04740E402CF84BE00020CFB0 /* FMEUEditMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04740E3F2CF84BE00020CFB0 /* FMEUEditMesmerizing.swift */; };
+		04740E422CF84BEE0020CFB0 /* FMEUChatListMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04740E412CF84BEE0020CFB0 /* FMEUChatListMesmerizing.swift */; };
+		04740E442CF87B8B0020CFB0 /* FMEUELUatexMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04740E432CF87B8B0020CFB0 /* FMEUELUatexMesmerizing.swift */; };
+		0481B42E2CF991F200092AFC /* FMESurelogEmailgesmering.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0481B42D2CF991F200092AFC /* FMESurelogEmailgesmering.xib */; };
+		0481B42F2CF991F200092AFC /* FMESurelogEmailgesmering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481B42C2CF991F200092AFC /* FMESurelogEmailgesmering.swift */; };
+		048F932C2CF6B66900D1D41B /* FMEDiscoverListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F932B2CF6B66900D1D41B /* FMEDiscoverListCell.swift */; };
+		048F932E2CF6BF2900D1D41B /* FMEDiscoverEnterinMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F932D2CF6BF2900D1D41B /* FMEDiscoverEnterinMesmerizing.swift */; };
+		048F93302CF6BF9D00D1D41B /* FMECreateDiscoverMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F932F2CF6BF9D00D1D41B /* FMECreateDiscoverMesmerizing.swift */; };
+		048F93322CF6F13300D1D41B /* FMEReportyMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F93312CF6F13300D1D41B /* FMEReportyMesmerizing.swift */; };
+		048F93342CF7155300D1D41B /* FMEOthercenterMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F93332CF7155300D1D41B /* FMEOthercenterMesmerizing.swift */; };
+		048F93362CF71F4200D1D41B /* FMEOtherPerChatMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F93352CF71F4200D1D41B /* FMEOtherPerChatMesmerizing.swift */; };
+		048F93382CF7278500D1D41B /* FMEVioodeoCallChatMesmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F93372CF7278500D1D41B /* FMEVioodeoCallChatMesmerizing.swift */; };
+		04944B432D194BA6007C2B63 /* FMElaunginbmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04944B422D194BA6007C2B63 /* FMElaunginbmerizing.swift */; };
+		04944B452D194BBC007C2B63 /* FMElhurrySignbmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04944B442D194BBC007C2B63 /* FMElhurrySignbmerizing.swift */; };
+		04944B472D194BD5007C2B63 /* FMElMinwevssbmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04944B462D194BD5007C2B63 /* FMElMinwevssbmerizing.swift */; };
+		04944B492D1957B8007C2B63 /* FMElMasonterbmerizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04944B482D1957B8007C2B63 /* FMElMasonterbmerizing.swift */; };
+		04CA47A62CF5639900388DB8 /* FMEGaamelistMesmeriing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA47A52CF5639900388DB8 /* FMEGaamelistMesmeriing.swift */; };
+		04CA47A82CF56CC500388DB8 /* FMEGaameDetailMesmeriing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA47A72CF56CC500388DB8 /* FMEGaameDetailMesmeriing.swift */; };
+		04CA47AA2CF57E2000388DB8 /* FMEGaameCommentMesmeriing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA47A92CF57E2000388DB8 /* FMEGaameCommentMesmeriing.swift */; };
+		04CA47AC2CF59B1B00388DB8 /* FMEAiCreateMesmeriing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA47AB2CF59B1B00388DB8 /* FMEAiCreateMesmeriing.swift */; };
+		04CA47AE2CF5A8BF00388DB8 /* FMEAiChatMesmeriing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA47AD2CF5A8BF00388DB8 /* FMEAiChatMesmeriing.swift */; };
+		04CA47B02CF5B0D500388DB8 /* FMEBlanceMesmeriing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA47AF2CF5B0D500388DB8 /* FMEBlanceMesmeriing.swift */; };
+		04F1271E2CF07B57003F96FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F127152CF07B57003F96FB /* Assets.xcassets */; };
+		04F127202CF07B57003F96FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F127182CF07B57003F96FB /* LaunchScreen.storyboard */; };
+		04F127222CF07B57003F96FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F127142CF07B57003F96FB /* AppDelegate.swift */; };
+		24C0DB5616E7ECE3A6985D46 /* Pods_FrolMachein.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645E8CD06A77A3FC0B943874 /* Pods_FrolMachein.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042E4DA02CF4115C0038FF8E /* FMEAppPriDesc.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FMEAppPriDesc.plist; sourceTree = "<group>"; };
+		042E4DA22CF412480038FF8E /* FMEAppuserfing.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FMEAppuserfing.plist; sourceTree = "<group>"; };
+		042E4DA42CF41AFF0038FF8E /* FMEgaaamerinfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FMEgaaamerinfo.plist; sourceTree = "<group>"; };
+		042E4DA62CF41EEF0038FF8E /* FMEMainMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEMainMesmerizing.swift; sourceTree = "<group>"; };
+		042E4DA92CF422900038FF8E /* FMEDataversity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEDataversity.swift; sourceTree = "<group>"; };
+		042E4DAD2CF428C30038FF8E /* FMEYIMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEYIMesmerizing.swift; sourceTree = "<group>"; };
+		042E4DB02CF428E10038FF8E /* FMEDiscoverMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEDiscoverMesmerizing.swift; sourceTree = "<group>"; };
+		042E4DB32CF429160038FF8E /* FMECenterMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMECenterMesmerizing.swift; sourceTree = "<group>"; };
+		042E4DB52CF4592A0038FF8E /* FMEAiButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEAiButton.swift; sourceTree = "<group>"; };
+		042E4DB72CF460A70038FF8E /* FMEMyRoomMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEMyRoomMesmerizing.swift; sourceTree = "<group>"; };
+		042E4DBA2CF4637E0038FF8E /* FMEMyRoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEMyRoomCell.swift; sourceTree = "<group>"; };
+		042E4DBC2CF474320038FF8E /* FMEOtherRoomMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEOtherRoomMesmerizing.swift; sourceTree = "<group>"; };
+		04740E332CF81EE70020CFB0 /* FMEUasdrlistMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEUasdrlistMesmerizing.swift; sourceTree = "<group>"; };
+		04740E362CF839460020CFB0 /* FMEUasdrlistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEUasdrlistCell.swift; sourceTree = "<group>"; };
+		04740E382CF841740020CFB0 /* FMEUasdrSiteMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEUasdrSiteMesmerizing.swift; sourceTree = "<group>"; };
+		04740E3B2CF849BD0020CFB0 /* FMEUaLogMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEUaLogMesmerizing.swift; sourceTree = "<group>"; };
+		04740E3C2CF849BD0020CFB0 /* FMEUaLogMesmerizing.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMEUaLogMesmerizing.xib; sourceTree = "<group>"; };
+		04740E3F2CF84BE00020CFB0 /* FMEUEditMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEUEditMesmerizing.swift; sourceTree = "<group>"; };
+		04740E412CF84BEE0020CFB0 /* FMEUChatListMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEUChatListMesmerizing.swift; sourceTree = "<group>"; };
+		04740E432CF87B8B0020CFB0 /* FMEUELUatexMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEUELUatexMesmerizing.swift; sourceTree = "<group>"; };
+		0481B42C2CF991F200092AFC /* FMESurelogEmailgesmering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMESurelogEmailgesmering.swift; sourceTree = "<group>"; };
+		0481B42D2CF991F200092AFC /* FMESurelogEmailgesmering.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMESurelogEmailgesmering.xib; sourceTree = "<group>"; };
+		048F932B2CF6B66900D1D41B /* FMEDiscoverListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEDiscoverListCell.swift; sourceTree = "<group>"; };
+		048F932D2CF6BF2900D1D41B /* FMEDiscoverEnterinMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEDiscoverEnterinMesmerizing.swift; sourceTree = "<group>"; };
+		048F932F2CF6BF9D00D1D41B /* FMECreateDiscoverMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMECreateDiscoverMesmerizing.swift; sourceTree = "<group>"; };
+		048F93312CF6F13300D1D41B /* FMEReportyMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEReportyMesmerizing.swift; sourceTree = "<group>"; };
+		048F93332CF7155300D1D41B /* FMEOthercenterMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEOthercenterMesmerizing.swift; sourceTree = "<group>"; };
+		048F93352CF71F4200D1D41B /* FMEOtherPerChatMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEOtherPerChatMesmerizing.swift; sourceTree = "<group>"; };
+		048F93372CF7278500D1D41B /* FMEVioodeoCallChatMesmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEVioodeoCallChatMesmerizing.swift; sourceTree = "<group>"; };
+		04944B412D194B66007C2B63 /* FrolMachein.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FrolMachein.entitlements; sourceTree = "<group>"; };
+		04944B422D194BA6007C2B63 /* FMElaunginbmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMElaunginbmerizing.swift; sourceTree = "<group>"; };
+		04944B442D194BBC007C2B63 /* FMElhurrySignbmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMElhurrySignbmerizing.swift; sourceTree = "<group>"; };
+		04944B462D194BD5007C2B63 /* FMElMinwevssbmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMElMinwevssbmerizing.swift; sourceTree = "<group>"; };
+		04944B482D1957B8007C2B63 /* FMElMasonterbmerizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMElMasonterbmerizing.swift; sourceTree = "<group>"; };
+		04CA47A52CF5639900388DB8 /* FMEGaamelistMesmeriing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEGaamelistMesmeriing.swift; sourceTree = "<group>"; };
+		04CA47A72CF56CC500388DB8 /* FMEGaameDetailMesmeriing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEGaameDetailMesmeriing.swift; sourceTree = "<group>"; };
+		04CA47A92CF57E2000388DB8 /* FMEGaameCommentMesmeriing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEGaameCommentMesmeriing.swift; sourceTree = "<group>"; };
+		04CA47AB2CF59B1B00388DB8 /* FMEAiCreateMesmeriing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEAiCreateMesmeriing.swift; sourceTree = "<group>"; };
+		04CA47AD2CF5A8BF00388DB8 /* FMEAiChatMesmeriing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEAiChatMesmeriing.swift; sourceTree = "<group>"; };
+		04CA47AF2CF5B0D500388DB8 /* FMEBlanceMesmeriing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEBlanceMesmeriing.swift; sourceTree = "<group>"; };
+		04F126EC2CF07AE8003F96FB /* FrolMachein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrolMachein.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F127142CF07B57003F96FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04F127152CF07B57003F96FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F127162CF07B57003F96FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F127172CF07B57003F96FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		645E8CD06A77A3FC0B943874 /* Pods_FrolMachein.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FrolMachein.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA7A94F08CB1553E9DEE462 /* Pods-FrolMachein.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrolMachein.debug.xcconfig"; path = "Target Support Files/Pods-FrolMachein/Pods-FrolMachein.debug.xcconfig"; sourceTree = "<group>"; };
+		F58FD60C231752BFF074A95A /* Pods-FrolMachein.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrolMachein.release.xcconfig"; path = "Target Support Files/Pods-FrolMachein/Pods-FrolMachein.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F126E92CF07AE8003F96FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C0DB5616E7ECE3A6985D46 /* Pods_FrolMachein.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042E4DA82CF41EF50038FF8E /* FMEAMain */ = {
+			isa = PBXGroup;
+			children = (
+				042E4DA62CF41EEF0038FF8E /* FMEMainMesmerizing.swift */,
+				042E4DA02CF4115C0038FF8E /* FMEAppPriDesc.plist */,
+				042E4DA22CF412480038FF8E /* FMEAppuserfing.plist */,
+				042E4DA42CF41AFF0038FF8E /* FMEgaaamerinfo.plist */,
+				042E4DA92CF422900038FF8E /* FMEDataversity.swift */,
+				04CA47AF2CF5B0D500388DB8 /* FMEBlanceMesmeriing.swift */,
+				048F93312CF6F13300D1D41B /* FMEReportyMesmerizing.swift */,
+			);
+			path = FMEAMain;
+			sourceTree = "<group>";
+		};
+		042E4DAC2CF4285E0038FF8E /* FMEHOme */ = {
+			isa = PBXGroup;
+			children = (
+				042E4DB92CF4635F0038FF8E /* viewq */,
+				042E4DAD2CF428C30038FF8E /* FMEYIMesmerizing.swift */,
+				042E4DB72CF460A70038FF8E /* FMEMyRoomMesmerizing.swift */,
+				042E4DBC2CF474320038FF8E /* FMEOtherRoomMesmerizing.swift */,
+				04CA47A52CF5639900388DB8 /* FMEGaamelistMesmeriing.swift */,
+				04CA47A72CF56CC500388DB8 /* FMEGaameDetailMesmeriing.swift */,
+				04CA47A92CF57E2000388DB8 /* FMEGaameCommentMesmeriing.swift */,
+				04CA47AB2CF59B1B00388DB8 /* FMEAiCreateMesmeriing.swift */,
+				04CA47AD2CF5A8BF00388DB8 /* FMEAiChatMesmeriing.swift */,
+			);
+			path = FMEHOme;
+			sourceTree = "<group>";
+		};
+		042E4DAF2CF428C70038FF8E /* FMEDiscover */ = {
+			isa = PBXGroup;
+			children = (
+				042E4DB02CF428E10038FF8E /* FMEDiscoverMesmerizing.swift */,
+				048F932B2CF6B66900D1D41B /* FMEDiscoverListCell.swift */,
+				048F932D2CF6BF2900D1D41B /* FMEDiscoverEnterinMesmerizing.swift */,
+				048F932F2CF6BF9D00D1D41B /* FMECreateDiscoverMesmerizing.swift */,
+			);
+			path = FMEDiscover;
+			sourceTree = "<group>";
+		};
+		042E4DB22CF428E40038FF8E /* FMECenter */ = {
+			isa = PBXGroup;
+			children = (
+				04740E352CF8392F0020CFB0 /* NIView */,
+				042E4DB32CF429160038FF8E /* FMECenterMesmerizing.swift */,
+				048F93332CF7155300D1D41B /* FMEOthercenterMesmerizing.swift */,
+				048F93352CF71F4200D1D41B /* FMEOtherPerChatMesmerizing.swift */,
+				048F93372CF7278500D1D41B /* FMEVioodeoCallChatMesmerizing.swift */,
+				04740E332CF81EE70020CFB0 /* FMEUasdrlistMesmerizing.swift */,
+				04740E382CF841740020CFB0 /* FMEUasdrSiteMesmerizing.swift */,
+				04740E3F2CF84BE00020CFB0 /* FMEUEditMesmerizing.swift */,
+				04740E412CF84BEE0020CFB0 /* FMEUChatListMesmerizing.swift */,
+			);
+			path = FMECenter;
+			sourceTree = "<group>";
+		};
+		042E4DB92CF4635F0038FF8E /* viewq */ = {
+			isa = PBXGroup;
+			children = (
+				042E4DB52CF4592A0038FF8E /* FMEAiButton.swift */,
+				042E4DBA2CF4637E0038FF8E /* FMEMyRoomCell.swift */,
+			);
+			path = viewq;
+			sourceTree = "<group>";
+		};
+		04740E352CF8392F0020CFB0 /* NIView */ = {
+			isa = PBXGroup;
+			children = (
+				04740E362CF839460020CFB0 /* FMEUasdrlistCell.swift */,
+			);
+			path = NIView;
+			sourceTree = "<group>";
+		};
+		04740E3A2CF849AC0020CFB0 /* FMELofin */ = {
+			isa = PBXGroup;
+			children = (
+				04740E3B2CF849BD0020CFB0 /* FMEUaLogMesmerizing.swift */,
+				04740E3C2CF849BD0020CFB0 /* FMEUaLogMesmerizing.xib */,
+				04740E432CF87B8B0020CFB0 /* FMEUELUatexMesmerizing.swift */,
+				0481B42C2CF991F200092AFC /* FMESurelogEmailgesmering.swift */,
+				0481B42D2CF991F200092AFC /* FMESurelogEmailgesmering.xib */,
+				04944B422D194BA6007C2B63 /* FMElaunginbmerizing.swift */,
+				04944B442D194BBC007C2B63 /* FMElhurrySignbmerizing.swift */,
+				04944B462D194BD5007C2B63 /* FMElMinwevssbmerizing.swift */,
+				04944B482D1957B8007C2B63 /* FMElMasonterbmerizing.swift */,
+			);
+			path = FMELofin;
+			sourceTree = "<group>";
+		};
+		04F126E32CF07AE8003F96FB = {
+			isa = PBXGroup;
+			children = (
+				04F1271D2CF07B57003F96FB /* FrolMachein */,
+				04F126ED2CF07AE8003F96FB /* Products */,
+				A39B1567D607387A0FF6C614 /* Pods */,
+				A21A72DA01F8F60DB22A311A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04F126ED2CF07AE8003F96FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F126EC2CF07AE8003F96FB /* FrolMachein.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F1271D2CF07B57003F96FB /* FrolMachein */ = {
+			isa = PBXGroup;
+			children = (
+				04944B412D194B66007C2B63 /* FrolMachein.entitlements */,
+				04740E3A2CF849AC0020CFB0 /* FMELofin */,
+				042E4DB22CF428E40038FF8E /* FMECenter */,
+				042E4DAF2CF428C70038FF8E /* FMEDiscover */,
+				042E4DAC2CF4285E0038FF8E /* FMEHOme */,
+				042E4DA82CF41EF50038FF8E /* FMEAMain */,
+				04F127142CF07B57003F96FB /* AppDelegate.swift */,
+				04F127152CF07B57003F96FB /* Assets.xcassets */,
+				04F127162CF07B57003F96FB /* Info.plist */,
+				04F127182CF07B57003F96FB /* LaunchScreen.storyboard */,
+			);
+			path = FrolMachein;
+			sourceTree = "<group>";
+		};
+		A21A72DA01F8F60DB22A311A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				645E8CD06A77A3FC0B943874 /* Pods_FrolMachein.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A39B1567D607387A0FF6C614 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7A94F08CB1553E9DEE462 /* Pods-FrolMachein.debug.xcconfig */,
+				F58FD60C231752BFF074A95A /* Pods-FrolMachein.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F126EB2CF07AE8003F96FB /* FrolMachein */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F126FF2CF07AEA003F96FB /* Build configuration list for PBXNativeTarget "FrolMachein" */;
+			buildPhases = (
+				878E0AFA09DF3EF82692D4C5 /* [CP] Check Pods Manifest.lock */,
+				04F126E82CF07AE8003F96FB /* Sources */,
+				04F126E92CF07AE8003F96FB /* Frameworks */,
+				04F126EA2CF07AE8003F96FB /* Resources */,
+				D9105A1836C1A4EBE11E4232 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrolMachein;
+			productName = FrolMachein;
+			productReference = 04F126EC2CF07AE8003F96FB /* FrolMachein.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F126E42CF07AE8003F96FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = FME;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					04F126EB2CF07AE8003F96FB = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 04F126E72CF07AE8003F96FB /* Build configuration list for PBXProject "FrolMachein" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F126E32CF07AE8003F96FB;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = 04F126ED2CF07AE8003F96FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F126EB2CF07AE8003F96FB /* FrolMachein */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F126EA2CF07AE8003F96FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042E4DA32CF412480038FF8E /* FMEAppuserfing.plist in Resources */,
+				042E4DA52CF41B000038FF8E /* FMEgaaamerinfo.plist in Resources */,
+				04F1271E2CF07B57003F96FB /* Assets.xcassets in Resources */,
+				042E4DA12CF4115C0038FF8E /* FMEAppPriDesc.plist in Resources */,
+				04740E3E2CF849BD0020CFB0 /* FMEUaLogMesmerizing.xib in Resources */,
+				0481B42E2CF991F200092AFC /* FMESurelogEmailgesmering.xib in Resources */,
+				04F127202CF07B57003F96FB /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		878E0AFA09DF3EF82692D4C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FrolMachein-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9105A1836C1A4EBE11E4232 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FrolMachein/Pods-FrolMachein-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FrolMachein/Pods-FrolMachein-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FrolMachein/Pods-FrolMachein-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F126E82CF07AE8003F96FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042E4DA72CF41EEF0038FF8E /* FMEMainMesmerizing.swift in Sources */,
+				04944B472D194BD5007C2B63 /* FMElMinwevssbmerizing.swift in Sources */,
+				04944B432D194BA6007C2B63 /* FMElaunginbmerizing.swift in Sources */,
+				04CA47B02CF5B0D500388DB8 /* FMEBlanceMesmeriing.swift in Sources */,
+				04740E442CF87B8B0020CFB0 /* FMEUELUatexMesmerizing.swift in Sources */,
+				04CA47A62CF5639900388DB8 /* FMEGaamelistMesmeriing.swift in Sources */,
+				04CA47AA2CF57E2000388DB8 /* FMEGaameCommentMesmeriing.swift in Sources */,
+				042E4DB12CF428E10038FF8E /* FMEDiscoverMesmerizing.swift in Sources */,
+				04740E342CF81EE70020CFB0 /* FMEUasdrlistMesmerizing.swift in Sources */,
+				042E4DB82CF460A70038FF8E /* FMEMyRoomMesmerizing.swift in Sources */,
+				048F93362CF71F4200D1D41B /* FMEOtherPerChatMesmerizing.swift in Sources */,
+				04740E422CF84BEE0020CFB0 /* FMEUChatListMesmerizing.swift in Sources */,
+				04CA47AE2CF5A8BF00388DB8 /* FMEAiChatMesmeriing.swift in Sources */,
+				042E4DB42CF429160038FF8E /* FMECenterMesmerizing.swift in Sources */,
+				048F93342CF7155300D1D41B /* FMEOthercenterMesmerizing.swift in Sources */,
+				048F932E2CF6BF2900D1D41B /* FMEDiscoverEnterinMesmerizing.swift in Sources */,
+				048F93322CF6F13300D1D41B /* FMEReportyMesmerizing.swift in Sources */,
+				04740E402CF84BE00020CFB0 /* FMEUEditMesmerizing.swift in Sources */,
+				048F93382CF7278500D1D41B /* FMEVioodeoCallChatMesmerizing.swift in Sources */,
+				042E4DBD2CF474320038FF8E /* FMEOtherRoomMesmerizing.swift in Sources */,
+				048F932C2CF6B66900D1D41B /* FMEDiscoverListCell.swift in Sources */,
+				042E4DAE2CF428C30038FF8E /* FMEYIMesmerizing.swift in Sources */,
+				04740E3D2CF849BD0020CFB0 /* FMEUaLogMesmerizing.swift in Sources */,
+				04944B452D194BBC007C2B63 /* FMElhurrySignbmerizing.swift in Sources */,
+				04CA47AC2CF59B1B00388DB8 /* FMEAiCreateMesmeriing.swift in Sources */,
+				04F127222CF07B57003F96FB /* AppDelegate.swift in Sources */,
+				042E4DBB2CF4637E0038FF8E /* FMEMyRoomCell.swift in Sources */,
+				04740E392CF841740020CFB0 /* FMEUasdrSiteMesmerizing.swift in Sources */,
+				0481B42F2CF991F200092AFC /* FMESurelogEmailgesmering.swift in Sources */,
+				042E4DB62CF4592B0038FF8E /* FMEAiButton.swift in Sources */,
+				048F93302CF6BF9D00D1D41B /* FMECreateDiscoverMesmerizing.swift in Sources */,
+				04944B492D1957B8007C2B63 /* FMElMasonterbmerizing.swift in Sources */,
+				042E4DAA2CF422900038FF8E /* FMEDataversity.swift in Sources */,
+				04CA47A82CF56CC500388DB8 /* FMEGaameDetailMesmeriing.swift in Sources */,
+				04740E372CF839460020CFB0 /* FMEUasdrlistCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04F127182CF07B57003F96FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F127172CF07B57003F96FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F127002CF07AEA003F96FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA7A94F08CB1553E9DEE462 /* Pods-FrolMachein.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = FrolMachein/FrolMachein.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FrolMachein/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Froliv;
+				INFOPLIST_KEY_LSApplicationCategoryType = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "In order to take photos, upload dynamic images, and make audio and video calls, Froliv needs access to your camera permissions";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "When Froliv uses the iCloud camera's location, Froliv needs to access your geographic location during the app period\n\n";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "In order to send voice messages, audio and video calls, Froliv needs access to your microphone";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "In order to upload dynamic images and personal avatars, Froliv needs access to your album permissions";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfroluy.frolie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04F127012CF07AEA003F96FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58FD60C231752BFF074A95A /* Pods-FrolMachein.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = FrolMachein/FrolMachein.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FrolMachein/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Froliv;
+				INFOPLIST_KEY_LSApplicationCategoryType = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "In order to take photos, upload dynamic images, and make audio and video calls, Froliv needs access to your camera permissions";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "When Froliv uses the iCloud camera's location, Froliv needs to access your geographic location during the app period\n\n";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "In order to send voice messages, audio and video calls, Froliv needs access to your microphone";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "In order to upload dynamic images and personal avatars, Froliv needs access to your album permissions";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfroluy.frolie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04F127022CF07AEA003F96FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04F127032CF07AEA003F96FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F126E72CF07AE8003F96FB /* Build configuration list for PBXProject "FrolMachein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F127022CF07AEA003F96FB /* Debug */,
+				04F127032CF07AEA003F96FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F126FF2CF07AEA003F96FB /* Build configuration list for PBXNativeTarget "FrolMachein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F127002CF07AEA003F96FB /* Debug */,
+				04F127012CF07AEA003F96FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F126E42CF07AE8003F96FB /* Project object */;
+}
