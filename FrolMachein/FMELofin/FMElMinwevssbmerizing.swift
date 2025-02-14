@@ -7,7 +7,7 @@
 import SwiftyStoreKit
 import UIKit
 @preconcurrency import WebKit
-import AFNetworking
+//import AFNetworking
 
 import KRProgressHUD
 import FBSDKCoreKit

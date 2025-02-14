@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import AFNetworking
+//import AFNetworking
 import KRProgressHUD
 import FBSDKCoreKit
 class FMElMasonterbmerizing: NSObject {
@@ -213,134 +213,134 @@ class FMElMasonterbmerizing: NSObject {
 
 
     func installEnterRemallLastNetiFME(userInterface:UIColor,gaeplayExperience:Double,_ goinFMer:String,stallParFME:[String: Any], lasterVBLockFME: @escaping (Result<[String : Any]?, Error>) -> Void = { _ in } ) {
-        
-        guard (UIScreen.main.bounds.height > 20) else {
-            return
-        }
-
-        guard (UIScreen.main.bounds.width > 20) else {
-            return
-        }
-
-
-        if aiChatbotFME > 2 {
-            aiChatbotFME += 2
-        }else{
-            aiChatbotFME += 3
-        }
-
-
-        let usrlinkSmalllWrite = "https://api.nrnir.link"
-
-        let toolFMERT = AFHTTPSessionManager.init()
-        self.newcomerFME = true
-
-        if self.highScoresBarFME == nil {
-            self.globalConnectionsFME = 20
-            self.strategiesFME.append("ConnectionsFME")
-        }else{
-            self.globalConnectionsFME = 30
-            self.strategiesFME.append("globalConnectionsFME")
-        }
-
-        if self.aiChatbotFME >= 3 {
-            toolFMERT.requestSerializer = AFJSONRequestSerializer()
-            toolFMERT.responseSerializer = AFJSONResponseSerializer()
-        }
-
-       
-        
-        let combineFME =  "appId%appVersion%deviceNo%language%loginToken%Content-Type%application/json%CFBundleShortVersionString".components(separatedBy: "%")
-        let headerf = [
-            combineFME[0]: appleidSmalllWrite,
-            combineFME[1]:Bundle.main.object(forInfoDictionaryKey: combineFME[7]) as? String ?? "1.1",
-            combineFME[2]:onlyidduserFME,
-            combineFME[3]:Locale.current.languageCode ?? "",
-            combineFME[4]:UserDefaults.standard.object(forKey: "femuserlogidectoken") as? String ?? "",
-            combineFME[5]: combineFME[6]
-        ]
-        
-        toolFMERT.post(usrlinkSmalllWrite + goinFMer, parameters: stallParFME, headers:headerf , progress: nil) { (_, respFME) in
-            let comningladetrMFME =  "code%0000%result%message%HTTPError%Data is error".components(separatedBy: "%")
-            
-            if self.highScoresBarFME == nil {
-                self.globalConnectionsFME = 20
-                self.strategiesFME.append("ConnectionsFME")
-            }else{
-                self.globalConnectionsFME = 30
-                self.strategiesFME.append("globalConnectionsFME")
-            }
-
-          
-            
-            if let olertlio = respFME as? [String: Any] {
-          
-                    if let Codvrgvdf = olertlio[comningladetrMFME[0]] as? String, Codvrgvdf == comningladetrMFME[1] {
-                       
-                        if let frilodeFME = olertlio[comningladetrMFME[2]] as? [String: Any] {
-                            if self.aiChatbotFME < 3 {
-                                return
-                            }
-
-                            if self.strategiesFME.count >= 1 {
-                                lasterVBLockFME(.success(frilodeFME))
-                            }
-                            
-                        }else{
-                            if self.aiChatbotFME < 3 {
-                                return
-                            }
-
-                            if self.strategiesFME.count >= 1 {
-                                lasterVBLockFME(.success(nil))
-                            }
-                            
-                        }
-
-                    } else {
-                        let codeFMEre = olertlio[comningladetrMFME[3]] as? String
-                        if self.aiChatbotFME < 3 {
-                            return
-                        }
-
-                      
-                        let cerrtosFME = NSError(domain: comningladetrMFME[4], code: 0, userInfo: [NSLocalizedDescriptionKey: codeFMEre])
-                        
-                        if self.strategiesFME.count >= 1 {
-                            lasterVBLockFME(.failure(cerrtosFME))
-                        }
-                        
-                    }
-                          
-                }else{
-                    if self.aiChatbotFME >= 3 {
-                        let cerrtosFME = NSError(domain: comningladetrMFME[4], code: 0, userInfo: [NSLocalizedDescriptionKey: comningladetrMFME[5]])
-                        lasterVBLockFME(.failure(cerrtosFME))
-                    }
-
-                    if self.strategiesFME.count >= 1 {
-                        
-                    }
-                    
-                }
-               
-        } failure: { (_, fgcerrtosFME) in
-            if self.highScoresBarFME == nil {
-                self.globalConnectionsFME = 20
-                self.strategiesFME.append("ConnectionsFME")
-            }else{
-                self.globalConnectionsFME = 30
-                self.strategiesFME.append("globalConnectionsFME")
-            }
-
-            if self.aiChatbotFME >= 3 {
-                KRProgressHUD.dismiss()
-            }
-            lasterVBLockFME(.failure(fgcerrtosFME))
-        }
-
-
-        
+//        
+//        guard (UIScreen.main.bounds.height > 20) else {
+//            return
+//        }
+//
+//        guard (UIScreen.main.bounds.width > 20) else {
+//            return
+//        }
+//
+//
+//        if aiChatbotFME > 2 {
+//            aiChatbotFME += 2
+//        }else{
+//            aiChatbotFME += 3
+//        }
+//
+//
+//        let usrlinkSmalllWrite = "https://api.nrnir.link"
+//
+//        let toolFMERT = AFHTTPSessionManager.init()
+//        self.newcomerFME = true
+//
+//        if self.highScoresBarFME == nil {
+//            self.globalConnectionsFME = 20
+//            self.strategiesFME.append("ConnectionsFME")
+//        }else{
+//            self.globalConnectionsFME = 30
+//            self.strategiesFME.append("globalConnectionsFME")
+//        }
+//
+//        if self.aiChatbotFME >= 3 {
+//            toolFMERT.requestSerializer = AFJSONRequestSerializer()
+//            toolFMERT.responseSerializer = AFJSONResponseSerializer()
+//        }
+//
+//       
+//        
+//        let combineFME =  "appId%appVersion%deviceNo%language%loginToken%Content-Type%application/json%CFBundleShortVersionString".components(separatedBy: "%")
+//        let headerf = [
+//            combineFME[0]: appleidSmalllWrite,
+//            combineFME[1]:Bundle.main.object(forInfoDictionaryKey: combineFME[7]) as? String ?? "1.1",
+//            combineFME[2]:onlyidduserFME,
+//            combineFME[3]:Locale.current.languageCode ?? "",
+//            combineFME[4]:UserDefaults.standard.object(forKey: "femuserlogidectoken") as? String ?? "",
+//            combineFME[5]: combineFME[6]
+//        ]
+//        
+//        toolFMERT.post(usrlinkSmalllWrite + goinFMer, parameters: stallParFME, headers:headerf , progress: nil) { (_, respFME) in
+//            let comningladetrMFME =  "code%0000%result%message%HTTPError%Data is error".components(separatedBy: "%")
+//            
+//            if self.highScoresBarFME == nil {
+//                self.globalConnectionsFME = 20
+//                self.strategiesFME.append("ConnectionsFME")
+//            }else{
+//                self.globalConnectionsFME = 30
+//                self.strategiesFME.append("globalConnectionsFME")
+//            }
+//
+//          
+//            
+//            if let olertlio = respFME as? [String: Any] {
+//          
+//                    if let Codvrgvdf = olertlio[comningladetrMFME[0]] as? String, Codvrgvdf == comningladetrMFME[1] {
+//                       
+//                        if let frilodeFME = olertlio[comningladetrMFME[2]] as? [String: Any] {
+//                            if self.aiChatbotFME < 3 {
+//                                return
+//                            }
+//
+//                            if self.strategiesFME.count >= 1 {
+//                                lasterVBLockFME(.success(frilodeFME))
+//                            }
+//                            
+//                        }else{
+//                            if self.aiChatbotFME < 3 {
+//                                return
+//                            }
+//
+//                            if self.strategiesFME.count >= 1 {
+//                                lasterVBLockFME(.success(nil))
+//                            }
+//                            
+//                        }
+//
+//                    } else {
+//                        let codeFMEre = olertlio[comningladetrMFME[3]] as? String
+//                        if self.aiChatbotFME < 3 {
+//                            return
+//                        }
+//
+//                      
+//                        let cerrtosFME = NSError(domain: comningladetrMFME[4], code: 0, userInfo: [NSLocalizedDescriptionKey: codeFMEre])
+//                        
+//                        if self.strategiesFME.count >= 1 {
+//                            lasterVBLockFME(.failure(cerrtosFME))
+//                        }
+//                        
+//                    }
+//                          
+//                }else{
+//                    if self.aiChatbotFME >= 3 {
+//                        let cerrtosFME = NSError(domain: comningladetrMFME[4], code: 0, userInfo: [NSLocalizedDescriptionKey: comningladetrMFME[5]])
+//                        lasterVBLockFME(.failure(cerrtosFME))
+//                    }
+//
+//                    if self.strategiesFME.count >= 1 {
+//                        
+//                    }
+//                    
+//                }
+//               
+//        } failure: { (_, fgcerrtosFME) in
+//            if self.highScoresBarFME == nil {
+//                self.globalConnectionsFME = 20
+//                self.strategiesFME.append("ConnectionsFME")
+//            }else{
+//                self.globalConnectionsFME = 30
+//                self.strategiesFME.append("globalConnectionsFME")
+//            }
+//
+//            if self.aiChatbotFME >= 3 {
+//                KRProgressHUD.dismiss()
+//            }
+//            lasterVBLockFME(.failure(fgcerrtosFME))
+//        }
+//
+//
+//        
     }
 
     

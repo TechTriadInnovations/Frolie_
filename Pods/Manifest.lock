@@ -1,19 +1,4 @@
 PODS:
-  - AFNetworking (4.0.1):
-    - AFNetworking/NSURLSession (= 4.0.1)
-    - AFNetworking/Reachability (= 4.0.1)
-    - AFNetworking/Security (= 4.0.1)
-    - AFNetworking/Serialization (= 4.0.1)
-    - AFNetworking/UIKit (= 4.0.1)
-  - AFNetworking/NSURLSession (4.0.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (4.0.1)
-  - AFNetworking/Security (4.0.1)
-  - AFNetworking/Serialization (4.0.1)
-  - AFNetworking/UIKit (4.0.1):
-    - AFNetworking/NSURLSession
   - DTPagerController (3.1.2)
   - FBAEMKit (17.4.0):
     - FBSDKCoreKit_Basics (= 17.4.0)
@@ -61,7 +46,6 @@ PODS:
   - SwiftyStoreKit (0.16.1)
 
 DEPENDENCIES:
-  - AFNetworking
   - DTPagerController
   - FBSDKCoreKit
   - IQKeyboardManager
@@ -73,7 +57,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - AFNetworking
     - DTPagerController
     - FBAEMKit
     - FBSDKCoreKit
@@ -88,7 +71,6 @@ SPEC REPOS:
     - SwiftyStoreKit
 
 SPEC CHECKSUMS:
-  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   DTPagerController: 91769c8711ad390bb48a984f3f1989712110e3f5
   FBAEMKit: 58cb5f302cdd715a56d4c1d0dfdd2e423ac1421a
   FBSDKCoreKit: 94d7461d0cecf441b1ba7c41acfff41daa8ccd41
@@ -102,6 +84,6 @@ SPEC CHECKSUMS:
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
 
-PODFILE CHECKSUM: 6199593cee832e2540bdf73b713d4a443c2f194d
+PODFILE CHECKSUM: b67bc028358681d25186b35ec3d38f543f76a176
 
 COCOAPODS: 1.16.2
