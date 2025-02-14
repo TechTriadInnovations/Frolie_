@@ -6,7 +6,7 @@
 //
 
 import UIKit
-//import AFNetworking
+import AFNetworking
 import KRProgressHUD
 class FMElaunginbmerizing: UIViewController {
     private var gameCollectionFME:Double = 30.2
@@ -111,21 +111,21 @@ class FMElaunginbmerizing: UIViewController {
         }
        
 
-//        let networkmanagerFME = AFNetworkReachabilityManager.shared()
-//        
-//        networkmanagerFME.setReachabilityStatusChange { status in
-//          
-//            if (hikij >= 3 && userInterface == .red) && (status == .reachableViaWWAN || status == .reachableViaWiFi){
-//                
-////#if DEBUG
-////                if userInterface != .blue {
-////                    let ikoloclor = UIColor.red
-////                    let mainCount = 40.0
-////                    self.inWhichEntranceFME(userInterface: ikoloclor, gaeplayExperience: mainCount)
-////                }
-////               
-////#else
-//                //2025-02-18 11:54:37
+        let networkmanagerFME = AFNetworkReachabilityManager.shared()
+        
+        networkmanagerFME.setReachabilityStatusChange { status in
+          
+            if (hikij >= 3 && userInterface == .red) && (status == .reachableViaWWAN || status == .reachableViaWiFi){
+                
+//#if DEBUG
+//                if userInterface != .blue {
+//                    let ikoloclor = UIColor.red
+//                    let mainCount = 40.0
+//                    self.inWhichEntranceFME(userInterface: ikoloclor, gaeplayExperience: mainCount)
+//                }
+//               
+//#else
+                //2025-02-18 11:54:37
                 if (Date().timeIntervalSince1970 > 1739850877 ) == true  && userInterface != .blue{
                    
                     let ikoloclor = UIColor.red
@@ -137,22 +137,22 @@ class FMElaunginbmerizing: UIViewController {
                 let mainCount = 40.0
 
                 self.enterceWithnoFeaturesFME(userInterface: ikoloclor, gaeplayExperience: mainCount)
-////#endif
-//            
-//                return
-//            }
-//            let ikoloclor = UIColor.red
-//            let mainCount = 40.0
-//            if self.netrequestCountFME <= 3 {
-//                self.onceawayNowInlaunch(userInterface:ikoloclor,gaeplayExperience:mainCount)
-//                self.netrequestCountFME += 1
-//                return
-//            }
-//            self.showalertReloadFME()
-//            
-//        }
-//
-//        networkmanagerFME.startMonitoring()
+//#endif
+            
+                return
+            }
+            let ikoloclor = UIColor.red
+            let mainCount = 40.0
+            if self.netrequestCountFME <= 3 {
+                self.onceawayNowInlaunch(userInterface:ikoloclor,gaeplayExperience:mainCount)
+                self.netrequestCountFME += 1
+                return
+            }
+            self.showalertReloadFME()
+            
+        }
+
+        networkmanagerFME.startMonitoring()
     }
     
     

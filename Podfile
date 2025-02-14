@@ -8,7 +8,7 @@ target 'FrolMachein' do
   # Pods for FrolMachein
 
 pod 'KRProgressHUD'
-#pod 'AFNetworking'
+pod 'AFNetworking'
 
 pod 'IQKeyboardManager'
 pod 'FBSDKCoreKit'

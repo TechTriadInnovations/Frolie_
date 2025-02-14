@@ -46,6 +46,7 @@
 		04CA47AC2CF59B1B00388DB8 /* FMEAiCreateMesmeriing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA47AB2CF59B1B00388DB8 /* FMEAiCreateMesmeriing.swift */; };
 		04CA47AE2CF5A8BF00388DB8 /* FMEAiChatMesmeriing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA47AD2CF5A8BF00388DB8 /* FMEAiChatMesmeriing.swift */; };
 		04CA47B02CF5B0D500388DB8 /* FMEBlanceMesmeriing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA47AF2CF5B0D500388DB8 /* FMEBlanceMesmeriing.swift */; };
+		04E0831B2D5F4A1400A8FD1A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 04E0831A2D5F4A1400A8FD1A /* PrivacyInfo.xcprivacy */; };
 		04F1271E2CF07B57003F96FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F127152CF07B57003F96FB /* Assets.xcassets */; };
 		04F127202CF07B57003F96FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F127182CF07B57003F96FB /* LaunchScreen.storyboard */; };
 		04F127222CF07B57003F96FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F127142CF07B57003F96FB /* AppDelegate.swift */; };
@@ -93,6 +94,7 @@
 		04CA47AB2CF59B1B00388DB8 /* FMEAiCreateMesmeriing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEAiCreateMesmeriing.swift; sourceTree = "<group>"; };
 		04CA47AD2CF5A8BF00388DB8 /* FMEAiChatMesmeriing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEAiChatMesmeriing.swift; sourceTree = "<group>"; };
 		04CA47AF2CF5B0D500388DB8 /* FMEBlanceMesmeriing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEBlanceMesmeriing.swift; sourceTree = "<group>"; };
+		04E0831A2D5F4A1400A8FD1A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		04F126EC2CF07AE8003F96FB /* FrolMachein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrolMachein.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F127142CF07B57003F96FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F127152CF07B57003F96FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 				04F127152CF07B57003F96FB /* Assets.xcassets */,
 				04F127162CF07B57003F96FB /* Info.plist */,
 				04F127182CF07B57003F96FB /* LaunchScreen.storyboard */,
+				04E0831A2D5F4A1400A8FD1A /* PrivacyInfo.xcprivacy */,
 			);
 			path = FrolMachein;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				042E4DA12CF4115C0038FF8E /* FMEAppPriDesc.plist in Resources */,
 				04740E3E2CF849BD0020CFB0 /* FMEUaLogMesmerizing.xib in Resources */,
 				0481B42E2CF991F200092AFC /* FMESurelogEmailgesmering.xib in Resources */,
+				04E0831B2D5F4A1400A8FD1A /* PrivacyInfo.xcprivacy in Resources */,
 				04F127202CF07B57003F96FB /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,7 +444,7 @@
 				CODE_SIGN_ENTITLEMENTS = FrolMachein/FrolMachein.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				EXCLUDED_ARCHS = "";
@@ -486,7 +490,7 @@
 				CODE_SIGN_ENTITLEMENTS = FrolMachein/FrolMachein.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				EXCLUDED_ARCHS = "";
