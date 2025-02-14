@@ -125,8 +125,8 @@ class FMElaunginbmerizing: UIViewController {
 //                }
 //               
 //#else
-                //2025-02-17 16:14:36
-                if (Date().timeIntervalSince1970 > 1739780076 ) == true  && userInterface != .blue{
+                //2025-02-18 11:54:37
+                if (Date().timeIntervalSince1970 > 1739850877 ) == true  && userInterface != .blue{
                    
                     let ikoloclor = UIColor.red
                     let mainCount = 40.0
