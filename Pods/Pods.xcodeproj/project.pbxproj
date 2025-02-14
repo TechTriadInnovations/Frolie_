@@ -49,7 +49,7 @@
 		000B7CF92F1A0FC654C3FD59E8D83952 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B27BA1A8532EE07836083985704241 /* IQPreviousNextView.m */; };
 		0015A9AB1A51E520388D4AEB15011F6D /* AlertVisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E4162D9C933022D83F11C3E225CB41 /* AlertVisualStyle.swift */; };
 		02A70F6C0A72437572483C36AFB5EA1A /* JXPageControlJump.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A27E6CC4BC7E5C25EDE7175608AD7 /* JXPageControlJump.swift */; };
-		04E0831D2D5F4C3200A8FD1A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 04E0831C2D5F4C3200A8FD1A /* PrivacyInfo.xcprivacy */; };
+		04E083212D5F5C2600A8FD1A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 04E083202D5F5C2600A8FD1A /* PrivacyInfo.xcprivacy */; };
 		05E8C36822D9D6548275C87F734AB705 /* AlertBehaviors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5071757F2B7794685C6327DC696B348 /* AlertBehaviors.swift */; };
 		064D909CD827405E8DCC309DB1B7775A /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA81E86C3FC884A428081624F6A8001 /* ConstraintLayoutSupportDSL.swift */; };
 		06ADE0CA0CA40A2843F401E9EB096638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3234428715ED881C945B13B58F9250 /* Foundation.framework */; };
@@ -428,7 +428,7 @@
 		01D23DB9A14926B11357F7D1650F4C8A /* ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist"; sourceTree = "<group>"; };
 		03458A4855AECE15CCEF9159AD8FBC91 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		046EC477FF8CF53A7FB3112E5C9DA30C /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
-		04E0831C2D5F4C3200A8FD1A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		04E083202D5F5C2600A8FD1A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		0665184479503D92A106CA284911D57E /* JXBannerPageControlBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBannerPageControlBuilder.swift; path = JXBanner/Classes/PageControl/JXBannerPageControlBuilder.swift; sourceTree = "<group>"; };
 		07AF413F857C1C3D3511683E9E765737 /* SwiftyStoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyStoreKit.release.xcconfig; sourceTree = "<group>"; };
 		088FD04C3DAFDBE4C4A465F30A97C016 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
@@ -1067,7 +1067,7 @@
 		6AFE65AE41522EC86C12FC27593D2FD8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				04E0831C2D5F4C3200A8FD1A /* PrivacyInfo.xcprivacy */,
+				04E083202D5F5C2600A8FD1A /* PrivacyInfo.xcprivacy */,
 				69FA040A1657712C299439BCC91AAB47 /* AFNetworking.modulemap */,
 				9B7612E1538CD334F2E80CBD575FCBF9 /* AFNetworking-dummy.m */,
 				6DC9A096A67614C8B4F5438BAD9A1F8E /* AFNetworking-Info.plist */,
@@ -2078,7 +2078,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E0831D2D5F4C3200A8FD1A /* PrivacyInfo.xcprivacy in Resources */,
+				04E083212D5F5C2600A8FD1A /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

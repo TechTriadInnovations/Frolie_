@@ -6,18 +6,20 @@
 	<array>
 		<dict>
 			<key>NSPrivacyAccessedAPIType</key>
-			<string>NSPrivacyAccessedAPICategorySystemBootTime</string>
+			<string>File Timestamp - 0A2A.1</string>
 			<key>NSPrivacyAccessedAPITypeReasons</key>
 			<array>
-				<string>35F9.1</string>
+				<string>File Timestamp - 0A2A.1: 3rd-party SDK wrapper on-device, per documentation</string>
+			</array>
+		</dict>
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>System Boot Time - 35F9.1</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<string>System Boot Time - 35F9.1: Measure time on-device, per documentation</string>
 			</array>
 		</dict>
 	</array>
-	<key>NSPrivacyCollectedDataTypes</key>
-	<array/>
-	<key>NSPrivacyTrackingDomains</key>
-	<array/>
-	<key>NSPrivacyTracking</key>
-	<false/>
 </dict>
 </plist>
